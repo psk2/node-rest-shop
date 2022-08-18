@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 const multer = require('multer')
 const uploads = multer({dest:'uploads/'});
 
-
+// Adding the modules
 const productRoutes = require('./api/routes/products')
 const orderRoutes = require('./api/routes/orders');
 const userRoutes = require('./api/routes/users');
